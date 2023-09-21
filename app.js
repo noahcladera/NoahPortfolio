@@ -11,6 +11,7 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
 document.querySelector(".contact-form").addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent the form from submitting the traditional way
 
